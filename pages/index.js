@@ -21,12 +21,12 @@ export default function Home() {
               <span class="ml-3 text-xl">Nilesh Deore</span>
             </a>
             <nav class="md:ml-auto flex flex-wrap items-center text-base justify-center">
-              <a class="mr-5 hover:text-gray-900">First Link</a>
-              <a class="mr-5 hover:text-gray-900">Second Link</a>
-              <a class="mr-5 hover:text-gray-900">Third Link</a>
-              <a class="mr-5 hover:text-gray-900">Fourth Link</a>
+              <a class="mr-5 hover:text-gray-900">Home</a>
+              <a class="mr-5 hover:text-gray-900">About</a>
+              <a class="mr-5 hover:text-gray-900">Services</a>
+              <a class="mr-5 hover:text-gray-900">Contact</a>
             </nav>
-            <button class="inline-flex items-center bg-gray-100 border-0 py-1 px-3 focus:outline-none hover:bg-gray-200 rounded text-base mt-4 md:mt-0">Button
+            <button class="inline-flex items-center bg-indigo-500 border-0 py-1 px-3 focus:outline-none hover:bg-indigo-800 rounded text-white mt-4 md:mt-0">View Resume
               <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-1" viewBox="0 0 24 24">
                 <path d="M5 12h14M12 5l7 7-7 7"></path>
               </svg>
@@ -52,7 +52,7 @@ export default function Home() {
               </div>
             </div>
             <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
-              <img class="object-cover object-center rounded" alt="hero" src="https://dummyimage.com/720x600" />
+              <img class="object-cover object-center rounded" alt="hero" src="nil.jpg" />
             </div>
           </div>
         </section>
@@ -68,9 +68,9 @@ export default function Home() {
                 <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
                   <img class="lg:h-48 md:h-36 w-full object-cover object-center" src="weather.png" alt="blog" />
                   <div class="p-6">
-                    <h2 class="tracking-widest text-xs title-font font-medium text-gray-400 mb-1">CATEGORY</h2>
-                    <h1 class="title-font text-lg font-medium text-gray-900 mb-3">The Catalyzer</h1>
-                    <p class="leading-relaxed mb-3">Photo booth fam kinfolk cold-pressed sriracha leggings jianbing microdosing tousled waistcoat.</p>
+                    <h2 class="tracking-widest text-xs title-font font-medium text-gray-400 mb-1">HTML, CSS, JAVASCRIPT, FETCH API</h2>
+                    <h1 class="title-font text-lg font-medium text-gray-900 mb-3">The Weather App</h1>
+                    <p class="leading-relaxed mb-3">This is the very interesting project, in that project we fetch the weather data with the help of fetch api and display it in our website with help of html and css.</p>
                     <div class="flex items-center flex-wrap ">
                       <a class="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0 ml-6" href='https://github.com/deorenilesh/weather' target="_blank" rel="noreferrer">View Code
                         <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
@@ -228,7 +228,7 @@ export default function Home() {
               <a href="https://twitter.com/knyttneve" class="text-gray-600 ml-1" rel="noopener noreferrer" target="_blank">@nileshdeoree</a>
             </p>
             <span class="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start">
-              <a class="text-gray-500">
+              <a class="text-gray-500" href='https://www.facebook.com' target="_blank" rel="noreferrer">
                 <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
                   <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
                 </svg>
