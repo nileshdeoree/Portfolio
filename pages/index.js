@@ -26,11 +26,11 @@ export default function Home() {
               <a class="mr-5 hover:text-gray-900">Services</a>
               <a class="mr-5 hover:text-gray-900">Contact</a>
             </nav>
-            <button class="inline-flex items-center bg-indigo-500 border-0 py-1 px-3 focus:outline-none hover:bg-indigo-800 rounded text-white mt-4 md:mt-0">View Resume
+            <a href="https://drive.google.com/file/d/1sMP_OAMXyuWee7jP1NloNb1k0YTmLiut/view?usp=sharing" target="_blank" rel="noreferrer"><button class="inline-flex items-center bg-indigo-500 border-0 py-1 px-3 focus:outline-none hover:bg-indigo-800 rounded text-white mt-4 md:mt-0">View Resume
               <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-1" viewBox="0 0 24 24">
                 <path d="M5 12h14M12 5l7 7-7 7"></path>
               </svg>
-            </button>
+            </button></a>
           </div>
         </header>
       </section>
@@ -90,19 +90,19 @@ export default function Home() {
               </div>
             <div class="p-4 md:w-1/3">
                 <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
-                  <img class="lg:h-48 md:h-36 w-full object-cover object-center" src="weather.png" alt="blog" />
+                  <img class="lg:h-48 md:h-36 w-full object-cover object-center" src="Screenshot 2022-11-19 091934.png" alt="blog" />
                   <div class="p-6">
-                    <h2 class="tracking-widest text-xs title-font font-medium text-gray-400 mb-1">CATEGORY</h2>
-                    <h1 class="title-font text-lg font-medium text-gray-900 mb-3">The Catalyzer</h1>
-                    <p class="leading-relaxed mb-3">Photo booth fam kinfolk cold-pressed sriracha leggings jianbing microdosing tousled waistcoat.</p>
+                    <h2 class="tracking-widest text-xs title-font font-medium text-gray-400 mb-1">HTML, CSS, JAVASCRIPT</h2>
+                    <h1 class="title-font text-lg font-medium text-gray-900 mb-3">Food Delivery Website</h1>
+                    <p class="leading-relaxed mb-3">This is the food delivery website. Made with the technologies like HTML ,CSS, JAVASCRIPT</p>
                     <div class="flex items-center flex-wrap ">
-                      <a class="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0 ml-6" href='https://github.com/deorenilesh/weather' target="_blank" rel="noreferrer">View Code
+                      <a class="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0 ml-6" href='https://github.com/deorenilesh/misal' target="_blank" rel="noreferrer">View Code
                         <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
                           <path d="M5 12h14"></path>
                           <path d="M12 5l7 7-7 7"></path>
                         </svg>
                       </a>
-                      <a class="text-red-700 inline-flex items-center md:mb-2 lg:mb-0  pl-20" href='https://deorenilesh.github.io/weather/' target="_blank" rel="noreferrer" >Go Live
+                      <a class="text-red-700 inline-flex items-center md:mb-2 lg:mb-0  pl-20" href='https://deorenilesh.github.io/misal/' target="_blank" rel="noreferrer" >Go Live
                         <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
                           <path d="M5 12h14"></path>
                           <path d="M12 5l7 7-7 7"></path>
@@ -114,19 +114,19 @@ export default function Home() {
               </div>
             <div class="p-4 md:w-1/3">
                 <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
-                  <img class="lg:h-48 md:h-36 w-full object-cover object-center" src="weather.png" alt="blog" />
+                  <img class="lg:h-48 md:h-36 w-full object-cover object-center" src="Screenshot 2022-11-19 091132.png" alt="blog" />
                   <div class="p-6">
-                    <h2 class="tracking-widest text-xs title-font font-medium text-gray-400 mb-1">CATEGORY</h2>
-                    <h1 class="title-font text-lg font-medium text-gray-900 mb-3">The Catalyzer</h1>
-                    <p class="leading-relaxed mb-3">Photo booth fam kinfolk cold-pressed sriracha leggings jianbing microdosing tousled waistcoat.</p>
+                    <h2 class="tracking-widest text-xs title-font font-medium text-gray-400 mb-1">TAILWIND CSS,HTML,</h2>
+                    <h1 class="title-font text-lg font-medium text-gray-900 mb-3">Marble shop</h1>
+                    <p class="leading-relaxed mb-3">This is the online marble shop throught which custumers can purchase goods online.</p>
                     <div class="flex items-center flex-wrap ">
-                      <a class="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0 ml-6" href='https://github.com/deorenilesh/weather' target="_blank" rel="noreferrer">View Code
+                      <a class="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0 ml-6" href='https://github.com/deorenilesh/Marble' target="_blank" rel="noreferrer">View Code
                         <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
                           <path d="M5 12h14"></path>
                           <path d="M12 5l7 7-7 7"></path>
                         </svg>
                       </a>
-                      <a class="text-red-700 inline-flex items-center md:mb-2 lg:mb-0  pl-20" href='https://deorenilesh.github.io/weather/' target="_blank" rel="noreferrer" >Go Live
+                      <a class="text-red-700 inline-flex items-center md:mb-2 lg:mb-0  pl-20" href='https://deorenilesh.github.io/Marble/' target="_blank" rel="noreferrer" >Go Live
                         <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
                           <path d="M5 12h14"></path>
                           <path d="M12 5l7 7-7 7"></path>
@@ -138,19 +138,19 @@ export default function Home() {
               </div>
             <div class="p-4 md:w-1/3">
                 <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
-                  <img class="lg:h-48 md:h-36 w-full object-cover object-center" src="weather.png" alt="blog" />
+                  <img class="lg:h-48 md:h-36 w-full object-cover object-center" src="Screenshot 2022-11-19 092253.png" alt="blog" />
                   <div class="p-6">
-                    <h2 class="tracking-widest text-xs title-font font-medium text-gray-400 mb-1">CATEGORY</h2>
-                    <h1 class="title-font text-lg font-medium text-gray-900 mb-3">The Catalyzer</h1>
-                    <p class="leading-relaxed mb-3">Photo booth fam kinfolk cold-pressed sriracha leggings jianbing microdosing tousled waistcoat.</p>
+                    <h2 class="tracking-widest text-xs title-font font-medium text-gray-400 mb-1"> CSS,HTML</h2>
+                    <h1 class="title-font text-lg font-medium text-gray-900 mb-3">MyOnlineMeal</h1>
+                    <p class="leading-relaxed mb-3">This is the online food website throught which custumers can purchase order food online.</p>
                     <div class="flex items-center flex-wrap ">
-                      <a class="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0 ml-6" href='https://github.com/deorenilesh/weather' target="_blank" rel="noreferrer">View Code
+                      <a class="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0 ml-6" href='https://github.com/deorenilesh/MyOnlineMeal' target="_blank" rel="noreferrer">View Code
                         <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
                           <path d="M5 12h14"></path>
                           <path d="M12 5l7 7-7 7"></path>
                         </svg>
                       </a>
-                      <a class="text-red-700 inline-flex items-center md:mb-2 lg:mb-0  pl-20" href='https://deorenilesh.github.io/weather/' target="_blank" rel="noreferrer" >Go Live
+                      <a class="text-red-700 inline-flex items-center md:mb-2 lg:mb-0  pl-20" href='https://deorenilesh.github.io/MyOnlineMeal/' target="_blank" rel="noreferrer" >Go Live
                         <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
                           <path d="M5 12h14"></path>
                           <path d="M12 5l7 7-7 7"></path>
@@ -162,19 +162,19 @@ export default function Home() {
               </div>
             <div class="p-4 md:w-1/3">
                 <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
-                  <img class="lg:h-48 md:h-36 w-full object-cover object-center" src="weather.png" alt="blog" />
+                  <img class="lg:h-48 md:h-36 w-full object-cover object-center" src="Screenshot 2022-11-19 091020.png" alt="blog" />
                   <div class="p-6">
-                    <h2 class="tracking-widest text-xs title-font font-medium text-gray-400 mb-1">CATEGORY</h2>
-                    <h1 class="title-font text-lg font-medium text-gray-900 mb-3">The Catalyzer</h1>
-                    <p class="leading-relaxed mb-3">Photo booth fam kinfolk cold-pressed sriracha leggings jianbing microdosing tousled waistcoat.</p>
+                    <h2 class="tracking-widest text-xs title-font font-medium text-gray-400 mb-1">HTML, CSS</h2>
+                    <h1 class="title-font text-lg font-medium text-gray-900 mb-3">NileshFitness</h1>
+                    <p class="leading-relaxed mb-3">This is the Gym website in which custumers can see the detaills about the gym.</p>
                     <div class="flex items-center flex-wrap ">
-                      <a class="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0 ml-6" href='https://github.com/deorenilesh/weather' target="_blank" rel="noreferrer">View Code
+                      <a class="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0 ml-6" href='https://github.com/deorenilesh/NileshFitness.github.io' target="_blank" rel="noreferrer">View Code
                         <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
                           <path d="M5 12h14"></path>
                           <path d="M12 5l7 7-7 7"></path>
                         </svg>
                       </a>
-                      <a class="text-red-700 inline-flex items-center md:mb-2 lg:mb-0  pl-20" href='https://deorenilesh.github.io/weather/' target="_blank" rel="noreferrer" >Go Live
+                      <a class="text-red-700 inline-flex items-center md:mb-2 lg:mb-0  pl-20" href='https://deorenilesh.github.io/NileshFitness.github.io/' target="_blank" rel="noreferrer" >Go Live
                         <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
                           <path d="M5 12h14"></path>
                           <path d="M12 5l7 7-7 7"></path>
@@ -186,19 +186,19 @@ export default function Home() {
               </div>
             <div class="p-4 md:w-1/3">
                 <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
-                  <img class="lg:h-48 md:h-36 w-full object-cover object-center" src="weather.png" alt="blog" />
+                  <img class="lg:h-48 md:h-36 w-full object-cover object-center" src="Screenshot 2022-11-19 091206.png" alt="blog" />
                   <div class="p-6">
-                    <h2 class="tracking-widest text-xs title-font font-medium text-gray-400 mb-1">CATEGORY</h2>
-                    <h1 class="title-font text-lg font-medium text-gray-900 mb-3">The Catalyzer</h1>
-                    <p class="leading-relaxed mb-3">Photo booth fam kinfolk cold-pressed sriracha leggings jianbing microdosing tousled waistcoat.</p>
+                    <h2 class="tracking-widest text-xs title-font font-medium text-gray-400 mb-1">HTML, CSS,JAVASCRIPT</h2>
+                    <h1 class="title-font text-lg font-medium text-gray-900 mb-3">Ranodm Number Generator</h1>
+                    <p class="leading-relaxed mb-3">This website is very useful for the kids, where they can practice the addition with random number generator.</p>
                     <div class="flex items-center flex-wrap ">
-                      <a class="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0 ml-6" href='https://github.com/deorenilesh/weather' target="_blank" rel="noreferrer">View Code
+                      <a class="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0 ml-6" href='https://github.com/deorenilesh/random' target="_blank" rel="noreferrer">View Code
                         <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
                           <path d="M5 12h14"></path>
                           <path d="M12 5l7 7-7 7"></path>
                         </svg>
                       </a>
-                      <a class="text-red-700 inline-flex items-center md:mb-2 lg:mb-0  pl-20" href='https://deorenilesh.github.io/weather/' target="_blank" rel="noreferrer" >Go Live
+                      <a class="text-red-700 inline-flex items-center md:mb-2 lg:mb-0  pl-20" href='https://deorenilesh.github.io/random/' target="_blank" rel="noreferrer" >Go Live
                         <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
                           <path d="M5 12h14"></path>
                           <path d="M12 5l7 7-7 7"></path>
