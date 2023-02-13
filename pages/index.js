@@ -2,6 +2,12 @@ import Head from 'next/head'
 import Image from 'next/image'
 import { useState } from 'react';
 
+
+
+// const myLoader = ({ src, width, quality }) => {
+//   return `http://localhost:3000/${src}?w=${width}&q=${quality || 75}`
+// }
+
 export default function Home() {
 
   const [btntext, setBtnText] = useState("Dark Mode")
@@ -11,15 +17,15 @@ export default function Home() {
       backgroundColor: "white"
     }
   );
-  const togglebtn = ()=>{
-    if(myStyle.color ==="black"){
+  const togglebtn = () => {
+    if (myStyle.color === "black") {
       setmyStyle({
         color: "white",
         backgroundColor: "black"
       })
       setBtnText("Light Mode")
     }
-    else{
+    else {
       setmyStyle({
         color: "black",
         backgroundColor: "white"
@@ -56,7 +62,7 @@ export default function Home() {
                 <path d="M5 12h14M12 5l7 7-7 7"></path>
               </svg>
             </button></a>
-            
+
           </div>
         </header>
       </section>
@@ -70,11 +76,11 @@ export default function Home() {
               </h1>
               <p class="mb-8 leading-relaxed">Copper mug try-hard pitchfork pour-over freegan heirloom neutra air plant cold-pressed tacos poke beard tote bag. Heirloom echo park mlkshk tote bag selvage hot chicken authentic tumeric truffaut hexagon try-hard chambray.</p>
               <div class="flex justify-center">
-                <a href="https://github.com/deorenilesh?tab=repositories" target="_blank" rel="noreferrer">
-                <button class="inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">Github Profile</button></a>
-                
+                <a href="https://github.com/nileshdeoree?tab=repositories" target="_blank" rel="noreferrer">
+                  <button class="inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">Github Profile</button></a>
+
                 <a href="#project"><button class="ml-4 inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">Projects</button></a>
-              
+
               </div>
             </div>
             <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
@@ -86,25 +92,26 @@ export default function Home() {
 
 
       <section id='project'>
-        
+
         <section class="text-gray-600 body-font">
           <div class="container px-5 py-24 mx-auto">
             <div class="flex flex-wrap -m-4">
-            <div class="p-4 md:w-1/3">
+              <div class="p-4 md:w-1/3">
                 <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
-                  <img class="lg:h-48 md:h-36 w-full object-cover object-center" src="weather.png" alt="blog" />
+                  <img  class="lg:h-48 md:h-36 w-full object-cover object-center" src="weather.png" alt="blog" />
+                  
                   <div class="p-6">
                     <h2 class="tracking-widest text-xs title-font font-medium text-gray-400 mb-1">HTML, CSS, JAVASCRIPT, FETCH API</h2>
                     <h1 class="title-font text-lg font-medium text-gray-900 mb-3">The Weather App</h1>
                     <p class="leading-relaxed mb-3">This is the very interesting project, in that project we fetch the weather data with the help of fetch api and display it in our website with help of html and css.</p>
                     <div class="flex items-center flex-wrap ">
-                      <a class="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0 ml-6" href='https://github.com/deorenilesh/weather' target="_blank" rel="noreferrer">View Code
+                      <a class="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0 ml-6" href='https://github.com/nileshdeoree/weather' target="_blank" rel="noreferrer">View Code
                         <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
                           <path d="M5 12h14"></path>
                           <path d="M12 5l7 7-7 7"></path>
                         </svg>
                       </a>
-                      <a class="text-red-700 inline-flex items-center md:mb-2 lg:mb-0  pl-20" href='https://deorenilesh.github.io/weather/' target="_blank" rel="noreferrer" >Go Live
+                      <a class="text-red-700 inline-flex items-center md:mb-2 lg:mb-0  pl-20" href='https://nileshdeoree.github.io/weather/' target="_blank" rel="noreferrer" >Go Live
                         <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
                           <path d="M5 12h14"></path>
                           <path d="M12 5l7 7-7 7"></path>
@@ -114,7 +121,7 @@ export default function Home() {
                   </div>
                 </div>
               </div>
-            <div class="p-4 md:w-1/3">
+              <div class="p-4 md:w-1/3">
                 <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
                   <img class="lg:h-48 md:h-36 w-full object-cover object-center" src="Screenshot 2022-11-19 091934.png" alt="blog" />
                   <div class="p-6">
@@ -122,13 +129,13 @@ export default function Home() {
                     <h1 class="title-font text-lg font-medium text-gray-900 mb-3">Food Delivery Website</h1>
                     <p class="leading-relaxed mb-3">This is the food delivery website. Made with the technologies like HTML ,CSS, JAVASCRIPT</p>
                     <div class="flex items-center flex-wrap ">
-                      <a class="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0 ml-6" href='https://github.com/deorenilesh/misal' target="_blank" rel="noreferrer">View Code
+                      <a class="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0 ml-6" href='https://github.com/nileshdeoree/misal' target="_blank" rel="noreferrer">View Code
                         <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
                           <path d="M5 12h14"></path>
                           <path d="M12 5l7 7-7 7"></path>
                         </svg>
                       </a>
-                      <a class="text-red-700 inline-flex items-center md:mb-2 lg:mb-0  pl-20" href='https://deorenilesh.github.io/misal/' target="_blank" rel="noreferrer" >Go Live
+                      <a class="text-red-700 inline-flex items-center md:mb-2 lg:mb-0  pl-20" href='https://nileshdeoree.github.io/misal/' target="_blank" rel="noreferrer" >Go Live
                         <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
                           <path d="M5 12h14"></path>
                           <path d="M12 5l7 7-7 7"></path>
@@ -138,7 +145,7 @@ export default function Home() {
                   </div>
                 </div>
               </div>
-            <div class="p-4 md:w-1/3">
+              <div class="p-4 md:w-1/3">
                 <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
                   <img class="lg:h-48 md:h-36 w-full object-cover object-center" src="Screenshot 2022-11-19 091132.png" alt="blog" />
                   <div class="p-6">
@@ -146,13 +153,13 @@ export default function Home() {
                     <h1 class="title-font text-lg font-medium text-gray-900 mb-3">Marble shop</h1>
                     <p class="leading-relaxed mb-3">This is the online marble shop throught which custumers can purchase goods online.</p>
                     <div class="flex items-center flex-wrap ">
-                      <a class="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0 ml-6" href='https://github.com/deorenilesh/Marble' target="_blank" rel="noreferrer">View Code
+                      <a class="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0 ml-6" href='https://github.com/nileshdeoree/Marble' target="_blank" rel="noreferrer">View Code
                         <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
                           <path d="M5 12h14"></path>
                           <path d="M12 5l7 7-7 7"></path>
                         </svg>
                       </a>
-                      <a class="text-red-700 inline-flex items-center md:mb-2 lg:mb-0  pl-20" href='https://deorenilesh.github.io/Marble/' target="_blank" rel="noreferrer" >Go Live
+                      <a class="text-red-700 inline-flex items-center md:mb-2 lg:mb-0  pl-20" href='https://nileshdeoree.github.io/Marble/' target="_blank" rel="noreferrer" >Go Live
                         <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
                           <path d="M5 12h14"></path>
                           <path d="M12 5l7 7-7 7"></path>
@@ -162,7 +169,7 @@ export default function Home() {
                   </div>
                 </div>
               </div>
-            <div class="p-4 md:w-1/3">
+              <div class="p-4 md:w-1/3">
                 <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
                   <img class="lg:h-48 md:h-36 w-full object-cover object-center" src="Screenshot 2022-11-19 092253.png" alt="blog" />
                   <div class="p-6">
@@ -170,13 +177,13 @@ export default function Home() {
                     <h1 class="title-font text-lg font-medium text-gray-900 mb-3">MyOnlineMeal</h1>
                     <p class="leading-relaxed mb-3">This is the online food website throught which custumers can purchase order food online.</p>
                     <div class="flex items-center flex-wrap ">
-                      <a class="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0 ml-6" href='https://github.com/deorenilesh/MyOnlineMeal' target="_blank" rel="noreferrer">View Code
+                      <a class="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0 ml-6" href='https://github.com/nileshdeoree/MyOnlineMeal' target="_blank" rel="noreferrer">View Code
                         <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
                           <path d="M5 12h14"></path>
                           <path d="M12 5l7 7-7 7"></path>
                         </svg>
                       </a>
-                      <a class="text-red-700 inline-flex items-center md:mb-2 lg:mb-0  pl-20" href='https://deorenilesh.github.io/MyOnlineMeal/' target="_blank" rel="noreferrer" >Go Live
+                      <a class="text-red-700 inline-flex items-center md:mb-2 lg:mb-0  pl-20" href='https://nileshdeoree.github.io/MyOnlineMeal/' target="_blank" rel="noreferrer" >Go Live
                         <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
                           <path d="M5 12h14"></path>
                           <path d="M12 5l7 7-7 7"></path>
@@ -186,7 +193,7 @@ export default function Home() {
                   </div>
                 </div>
               </div>
-            <div class="p-4 md:w-1/3">
+              <div class="p-4 md:w-1/3">
                 <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
                   <img class="lg:h-48 md:h-36 w-full object-cover object-center" src="Screenshot 2022-11-19 091020.png" alt="blog" />
                   <div class="p-6">
@@ -194,13 +201,13 @@ export default function Home() {
                     <h1 class="title-font text-lg font-medium text-gray-900 mb-3">NileshFitness</h1>
                     <p class="leading-relaxed mb-3">This is the Gym website in which custumers can see the detaills about the gym.</p>
                     <div class="flex items-center flex-wrap ">
-                      <a class="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0 ml-6" href='https://github.com/deorenilesh/NileshFitness.github.io' target="_blank" rel="noreferrer">View Code
+                      <a class="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0 ml-6" href='https://github.com/nileshdeoree/NileshFitness.github.io' target="_blank" rel="noreferrer">View Code
                         <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
                           <path d="M5 12h14"></path>
                           <path d="M12 5l7 7-7 7"></path>
                         </svg>
                       </a>
-                      <a class="text-red-700 inline-flex items-center md:mb-2 lg:mb-0  pl-20" href='https://deorenilesh.github.io/NileshFitness.github.io/' target="_blank" rel="noreferrer" >Go Live
+                      <a class="text-red-700 inline-flex items-center md:mb-2 lg:mb-0  pl-20" href='https://nileshdeoree.github.io/NileshFitness.github.io/' target="_blank" rel="noreferrer" >Go Live
                         <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
                           <path d="M5 12h14"></path>
                           <path d="M12 5l7 7-7 7"></path>
@@ -210,7 +217,7 @@ export default function Home() {
                   </div>
                 </div>
               </div>
-            <div class="p-4 md:w-1/3">
+              <div class="p-4 md:w-1/3">
                 <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
                   <img class="lg:h-48 md:h-36 w-full object-cover object-center" src="Screenshot 2022-11-19 091206.png" alt="blog" />
                   <div class="p-6">
@@ -218,13 +225,13 @@ export default function Home() {
                     <h1 class="title-font text-lg font-medium text-gray-900 mb-3">Ranodm Number Generator</h1>
                     <p class="leading-relaxed mb-3">This website is very useful for the kids, where they can practice the addition with random number generator.</p>
                     <div class="flex items-center flex-wrap ">
-                      <a class="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0 ml-6" href='https://github.com/deorenilesh/random' target="_blank" rel="noreferrer">View Code
+                      <a class="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0 ml-6" href='https://github.com/nileshdeoree/random' target="_blank" rel="noreferrer">View Code
                         <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
                           <path d="M5 12h14"></path>
                           <path d="M12 5l7 7-7 7"></path>
                         </svg>
                       </a>
-                      <a class="text-red-700 inline-flex items-center md:mb-2 lg:mb-0  pl-20" href='https://deorenilesh.github.io/random/' target="_blank" rel="noreferrer" >Go Live
+                      <a class="text-red-700 inline-flex items-center md:mb-2 lg:mb-0  pl-20" href='https://nileshdeoree.github.io/random/' target="_blank" rel="noreferrer" >Go Live
                         <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
                           <path d="M5 12h14"></path>
                           <path d="M12 5l7 7-7 7"></path>
@@ -234,7 +241,7 @@ export default function Home() {
                   </div>
                 </div>
               </div>
-            
+
 
             </div>
           </div>
@@ -264,7 +271,7 @@ export default function Home() {
                   <path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"></path>
                 </svg>
               </a>
-              <a class="ml-3 text-gray-500" href='https://www.instagram.com/nileshdeoree/'target="_blank" rel="noreferrer">
+              <a class="ml-3 text-gray-500" href='https://www.instagram.com/nileshdeoree/' target="_blank" rel="noreferrer">
                 <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
                   <rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect>
                   <path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37zm1.5-4.87h.01"></path>
